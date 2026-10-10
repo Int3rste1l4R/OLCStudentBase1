@@ -1,0 +1,5 @@
+nameid,name,class,cca,role,date_joined,date_left,status
+john1234,john,3a,soccer,member,2025-05-05,,active
+mary1234,mary,4a,netball,secretary,2025-05-05,,active
+joseph1234,joseph,4e,basketball,chairman,2025-05-05,,active
+marcus1234,marcus,4c,tennis,member,2025-05-05,2025-06-05,inactive

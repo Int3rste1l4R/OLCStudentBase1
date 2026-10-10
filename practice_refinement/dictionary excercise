@@ -1,0 +1,76 @@
+################ SET 2: Student and Marks ################
+
+################ Define a dictionary ###############
+# Define a dictionary named marks which will store a student name and the marks they scored.
+
+# 'Alice' scored 78
+# 'Ben' scored 64
+# 'Chloe' scored 89
+# 'Daniel' scored 55
+
+# write and test your code here
+my_dict = {'Alice':78,'Ben':64,'Chloe':89,'Daniel':55}
+################ Retrieve values from a dictionary ###############
+# Print out the marks scored by Alice only.
+# Print out the marks scored by Daniel only.
+
+# print(dict['Alice'])
+# print(dict['Daniel'])
+
+########### Change the value of a dictionary key ###############
+# Change Ben's marks to 70.
+# Change Daniel's marks to 60.
+
+# dict['Ben'] = 70
+# dict['Daniel'] = 60
+# print(dict)
+
+############ Increase the value of a dictionary key ############
+# Increase Chloe's marks by 5.
+# Decrease Alice's marks by 3.
+
+# my_dict['Chloe'] += 5
+# my_dict['Alice'] -= 3
+# print(my_dict)
+
+
+############ Add a new key / value to the dictionary #####################
+# Add a new student => Ethan who scored 82.
+# Add a new student => Fiona who scored 91.
+
+# my_dict['Ethan'] = 82
+# my_dict['Fiona'] = 91
+# print(my_dict)
+
+
+############ Delete a key / value from the dictionary #####################
+# Delete Daniel from the dictionary.
+
+# del my_dict['Daniel']
+# print(my_dict)
+
+
+########### Loop through to Retrieve Keys ##################
+# Write a for loop, and only display the name of each student.
+
+# Only display the keys.
+
+# for i in my_dict:
+#     print(i)
+
+
+########### Loop through to Retrieve Values ##################
+# Write a for loop, and only print out the marks.
+
+# for m in my_dict:
+#     print(my_dict[m])
+
+
+########### Loop through to Retrieve Key and Values ##################
+# Write a for loop, and print out the student name and marks.
+# for i in my_dict:
+#     print(f"{i} scored {my_dict[i]} marks")
+
+# Example:
+# Alice scored 78 marks
+# Ben scored 64 marks
